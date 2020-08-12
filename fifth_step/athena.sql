@@ -1,0 +1,1 @@
+select device_type, count(*) as viewsNumber from views group by device_type;
