@@ -3,8 +3,8 @@ import boto3
 connection = boto3.client(
     'emr',
     region_name='us-east-2',
-    aws_access_key_id='AKIAYKF7NAHPS7QUGVN7',
-    aws_secret_access_key='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',
+    aws_access_key_id='',
+    aws_secret_access_key=''
 )
 
 cluster_id = connection.run_job_flow(

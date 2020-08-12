@@ -3,8 +3,8 @@ import json
 #
 import boto3
 
-kinesis = boto3.client("kinesis", region_name='us-east-2', aws_access_key_id='AKIAYKF7NAHPS7QUGVN7',
-                       aws_secret_access_key='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')
+kinesis = boto3.client("kinesis", region_name='us-east-2', aws_access_key_id='',
+                       aws_secret_access_key='')
 
 # kinesis.create_stream(
 #     StreamName='mijailovic-stream',
