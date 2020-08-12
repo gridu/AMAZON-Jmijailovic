@@ -6,7 +6,7 @@ session = boto3.Session(profile_name='default')
 logViewsClient = session.client('firehose', region_name='us-east-2', aws_access_key_id='', aws_secret_access_key='')
 
 try:
-    s3 = boto3.client("s3", region_name='us-east-2', aws_access_key_id='AKIAYKF7NAHPS7QUGVN7', aws_secret_access_key='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')
+    s3 = boto3.client("s3", region_name='us-east-2', aws_access_key_id='', aws_secret_access_key='')
     s3.create_bucket(Bucket="jmijailovic-item-logs", CreateBucketConfiguration={
         'LocationConstraint': 'us-east-2'})
 except:
